@@ -1,0 +1,120 @@
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+        
+	min-height: @menu-height; // also cange this valuein media-break.less under medias
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 0px;
+    // background-color: @color-navbar-bg;
+}
+
+.navbar-default {
+	background-color: @color-navbar-bg;
+    // font-size: 0.99em; 
+    // font-weight: 700;
+    // text-transform: uppercase;
+    // padding-left: 0px;
+    // font-family: 'Open Sans Condensed', sans-serif;
+    // letter-spacing: 0.03em;
+    // line-height: 22px;
+    // font-size: 1.133em;
+    // border: none;
+}
+
+// super fish
+
+ul.sf-menu.sf-style-black a, 
+ul.sf-menu.sf-style-black span.nolink {
+    border: 0 none;
+    color: #eeeeee;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+// visited
+ul.sf-menu.sf-style-black li li > a:visited {
+    border: 0 none;
+    color: #777777;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+// main menu
+ul.sf-menu.sf-style-black li,
+ul.sf-menu.sf-style-black.sf-navbar {
+  background: @color-navbar-bg;
+ // opacity: 0.50;
+}
+
+// sub main menu drop down
+ul.sf-menu.sf-style-black li li,
+ul.sf-menu.sf-style-black.sf-navbar > li > ul {
+  background: @color-navbar-sub-third-bg;
+ // opacity: 0.75;
+  min-width: 250px;
+  
+  //li {
+  //	opacity: 0.75;
+  //}
+	a {
+		color: #4d4d4d;
+		font-weight: bold;
+	}
+	
+	a:hover {
+		color: #ffffff;
+		font-weight: bold;
+	}
+  
+}
+// third level main menu drop down
+ul.sf-menu.sf-style-black li li li {
+	
+	//tird level menu bg
+  background: @color-navbar-sub-third-bg;
+}
+
+
+// red botton border line
+ul.sf-menu.sf-style-black li {
+	ul {
+		margin-top: 0.37em;
+		border-bottom: @color-upper-headerbar 4px solid;
+	}
+}
+
+////
+
+ul.sf-menu.sf-style-black li:hover,
+ul.sf-menu.sf-style-black li.sfHover,
+ul.sf-menu.sf-style-black a:focus,
+ul.sf-menu.sf-style-black a:hover,
+ul.sf-menu.sf-style-black span.nolink:hover {
+  background: @color-navbar-hover-menu;
+  color: #ffffff;
+  outline: 0;
+}
+
+
+ul.sf-menu .sf-sub-indicator:after {	
+  content: "▼";
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-indent: 0;
+  top: 0;
+}
+
+ul.sf-menu {
+	
+	 //margin-bottom: 0em;
+	 //    line-height: 1.70;
+  //  z-index: 497;
+	
+  	a.is-active, li.active-trail {
+	     background: @color-navbar-active-link;
+	}
+	
+}
+

@@ -1,0 +1,31 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/font-awesome.min.css: {}
+      css/application.css: {}
+      '//fonts.googleapis.com/css?family=Roboto:400,900,100,700': { type: external }
+      '//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700': { type: external }
+      '//fonts.googleapis.com/css?family=Oswald:400,700,300': { type: external }
+      '//fonts.googleapis.com/css?family=Open+Sans+Condensed:700': { type: external }
+      '//fonts.googleapis.com/css?family=Libre+Baskerville:400,700': { type: external }
+
+  js:
+    js/theme.js: {}
+
+bootstrap-scripts:
+  js:
+    bootstrap/js/affix.js: {}
+    bootstrap/js/alert.js: {}
+    bootstrap/js/button.js: {}
+    bootstrap/js/carousel.js: {}
+    bootstrap/js/collapse.js: {}
+    bootstrap/js/dropdown.js: {}
+    bootstrap/js/modal.js: {}
+    bootstrap/js/tooltip.js: {}
+    bootstrap/js/popover.js: {}
+    bootstrap/js/scrollspy.js: {}
+    bootstrap/js/tab.js: {}
+    bootstrap/js/transition.js: {}
+
+

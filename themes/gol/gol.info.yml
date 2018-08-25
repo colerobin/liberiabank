@@ -1,0 +1,37 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Government of Liberia'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  government: 'Government name'
+  email_login: 'Email Login'
+  logo_holder: 'Logo Holder'
+  search_bar: 'Search Bar Holder'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  scrolling_texts: 'Scrolling Texts'
+  header: 'Header'
+  slide_show: 'Carousel Bar'
+  the_administration: 'The Administration'
+  the_featured: 'The Featured'
+  above_highlight_primary: 'Above Highlighted Primary'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content_above: 'Content Above'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer_above: 'Footer Above'
+  footer: 'Footer'
+  footer_logo: 'Footer Logo'
+  footer_name: 'Footer Name'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'gol/global-styling'
+  - 'gol/bootstrap-scripts'

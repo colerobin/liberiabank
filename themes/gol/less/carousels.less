@@ -1,0 +1,174 @@
+// CASOUSEL	
+
+#views-bootstrap-home-page-carousel-block-100, .carousel {
+	background-image: url('../images/bcs.jpg');
+	background-repeat: no-repeat;
+	background-color: @color-carousel-bg;
+	border-top-left-radius: @num-carosel-radius;
+	border-top-right-radius: @num-carosel-radius;
+	border-bottom-left-radius: @num-carosel-radius;
+	border-bottom-right-radius: @num-carosel-radius;
+	margin-bottom: 25px;
+  
+  img {
+	//	border-top: @color-upper-headerbar 4px solid;
+			border: none;
+	  border-top-left-radius: @num-carosel-radius;
+	//  border-top-right-radius: @num-carosel-radius;
+	  border-bottom-left-radius: @num-carosel-radius;
+	//  border-bottom-right-radius: @num-carosel-radius;
+	    margin: 21px 25px 25px 25px;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+	.carousel-caption {
+	  /*  padding:20px 20px 20px 20px;*/
+	  position: absolute;
+	  top: 0;
+	 // height: 382px;
+	  left: 0px;
+	  width: 100%;
+	  bottom: 0px;
+	  opacity: 1;
+	  filter: alpha(opacity=80);
+	  /* For IE8 and earlier */
+	  text-align: left;
+	  padding-left: 15px;
+	  padding-top: 25px;
+	  padding-right: 42px;
+	  padding-bottom: 15px;
+	  text-shadow: none;
+	  
+	  
+	  /* Glyph, by Harry Roberts */
+
+		hr {
+			opacity: 0.90;
+		    overflow: visible; /* For IE */
+		    padding: 0;
+		    border: none;
+		    border-top: none;
+		    color: #333;
+		    text-align: center;
+		    margin-left: 20px;
+		    
+		}
+		
+		hr:after {
+			content: url('../images/w-seal.png');
+		   // content: "§";
+		    display: inline-block;
+		    position: relative;
+		    top: -0.7em;
+		    font-size: 1.1em;
+		    padding: 0 0.25em;
+		 //   background: #16325b;
+		    color: #5b120e;
+		}
+		
+	}
+
+	.carousel-wrapper {
+	  margin-bottom: 20px;
+	}
+	.carousel-caption > h3 {
+	  margin: 0px 0px 13px 20px;
+	}
+	.carousel-caption > p {
+	  margin: 0px 12px 15px 20px;
+	  color: #ffffff;
+	}
+	.carousel-caption > h3 > a {
+	  padding: 0px 0px 0px 0px;
+	 // color: @color-carousel-link;
+	  color: @color-white;
+	 // font-family: 'Roboto', sans-serif;
+	  font-family: 'Libre Baskerville', serif;
+	  font-weight: 700;
+	  font-size: 24px;
+	  line-height: 29px;
+	}
+	
+	.carousel-caption > h3 > a:hover {
+	 // padding: 0px 0px 0px 0px;
+	 // color: @color-carousel-link;
+	 // color: @color-white;
+	  text-decoration: none;
+	  opacity: 0.50;
+	 // font-family: 'Roboto', sans-serif;
+	 // font-family: 'Libre Baskerville', serif;
+//	  font-weight: 700;
+	//  font-size: 24px;
+	//  line-height: 29px;
+	}
+	
+	.carousel-control {
+	  border-top-left-radius: @num-carosel-radius;
+	  border-top-right-radius: @num-carosel-radius;
+	  border-bottom-left-radius: @num-carosel-radius;
+	  border-bottom-right-radius: @num-carosel-radius;
+	  width: 5%;
+	}
+	
+	.carousel-indicators li {
+		    display: inline-block;
+		    width: 13px;
+		    height: 13px;
+		    margin: 1px;
+		    text-indent: -999px;
+		    border: 1px solid #1b3b6a;
+		    border-radius: 0px;
+		    cursor: pointer;
+		    background-color: #000 \9;
+		    background-color: rgba(0, 0, 0, 0);
+		}
+		
+	.carousel-indicators .active {
+		    margin: 0;
+		    width: 15px;
+		    height: 15px;
+		    background-color: #1b3b6a;
+		}	
+		
+	.carousel-indicators {
+		    position: absolute;
+		    bottom: 10px;
+		    left: 64%;
+		    z-index: 15;
+		    width: 60%;
+		    margin-left: -10%; 
+		    padding-left: 0;
+		    list-style: none;
+		    text-align: center;
+		}	
+	
+	
+		
+	.carousel-control.right {
+		display: none;
+	    left: auto;
+	    right: 0;
+	    
+	    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); 
+	    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+	    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+	    background-repeat: repeat-x;
+	   // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+	}
+	
+	.carousel-control.left {
+		display: none;
+	    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+	    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+	    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+	    background-repeat: repeat-x;
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	}
+	
+	
+}
+
+
+
+
+///////////////////////////////////
